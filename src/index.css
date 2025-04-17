@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #727272;
+}
+
+html {
+  @apply bg-(--black) h-full w-full;
+}

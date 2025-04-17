@@ -1,0 +1,111 @@
+@theme {
+  --fira-sans-condensed-thin: "fira-sans-condensed-thin", "sans-serif";
+  --fira-sans-condensed-extralight: "fira-sans-condensed-extralight",
+    "sans-serif";
+  --fira-sans-condensed-light: "fira-sans-condensed-light", "sans-serif";
+  --fira-sans-condensed-regular: "fira-sans-condensed-regular", "sans-serif";
+  --fira-sans-condensed-medium: "fira-sans-condensed-medium", "sans-serif";
+  --fira-sans-condensed-semibold: "fira-sans-condensed-semibold", "sans-serif";
+  --fira-sans-condensed-bold: "fira-sans-condensed-bold", "sans-serif";
+  --fira-sans-condensed-extrabold: "fira-sans-condensed-extrabold", "sans-serif";
+  --fira-sans-condensed-black: "fira-sans-condensed-black", "sans-serif";
+}
+
+.fira-sans-condensed-thin {
+  font-family: var(--fira-sans-condensed-thin);
+}
+.fira-sans-condensed-extralight {
+  font-family: var(--fira-sans-condensed-extralight);
+}
+.fira-sans-condensed-light {
+  font-family: var(--fira-sans-condensed-light);
+}
+.fira-sans-condensed-regular {
+  font-family: var(--fira-sans-condensed-regular);
+}
+.fira-sans-condensed-medium {
+  font-family: var(--fira-sans-condensed-medium);
+}
+.fira-sans-condensed-semibold {
+  font-family: var(--fira-sans-condensed-semibold);
+}
+.fira-sans-condensed-bold {
+  font-family: var(--fira-sans-condensed-bold);
+}
+.fira-sans-condensed-extrabold {
+  font-family: var(--fira-sans-condensed-extrabold);
+}
+.fira-sans-condensed-black {
+  font-family: var(--fira-sans-condensed-black);
+}
+
+/* 100 - thin */
+@font-face {
+  font-family: "fira-sans-condensed-thin";
+  src: url("/fonts/Fira_Sans_Condensed/FiraSansCondensed-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+/* 200 - extralight */
+@font-face {
+  font-family: "fira-sans-condensed-extraLight";
+  src: url("/fonts/Fira_Sans_Condensed/FiraSansCondensed-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+/* 300 - light */
+@font-face {
+  font-family: "fira-sans-condensed-light";
+  src: url("/fonts/Fira_Sans_Condensed/FiraSansCondensed-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+/* 400 - regular */
+@font-face {
+  font-family: "fira-sans-condensed-regular";
+  src: url("/fonts/Fira_Sans_Condensed/FiraSansCondensed-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+/* 500 - medium */
+@font-face {
+  font-family: "fira-sans-condensed-medium";
+  src: url("/fonts/Fira_Sans_Condensed/FiraSansCondensed-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+/* 600 - semibold */
+@font-face {
+  font-family: "fira-sans-condensed-semiBold";
+  src: url("/fonts/Fira_Sans_Condensed/FiraSansCondensed-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+/* 700 - bold */
+@font-face {
+  font-family: "fira-sans-condensed-bold";
+  src: url("/fonts/Fira_Sans_Condensed/FiraSansCondensed-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+/* 800 - extrabold */
+@font-face {
+  font-family: "fira-sans-condensed-extraBold";
+  src: url("/fonts/Fira_Sans_Condensed/FiraSansCondensed-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+/* 900 - black */
+@font-face {
+  font-family: "fira-sans-condensed-black";
+  src: url("/fonts/Fira_Sans_Condensed/FiraSansCondensed-Black.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
