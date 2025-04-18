@@ -47,7 +47,7 @@ const MainPage = () => {
         </div>
         <Button label="Больше" action={portfolioButton} />
         {/* Plans */}
-        <div className="py-32">
+        <div className="py-32 w-full">
           <Plans />
         </div>
 
