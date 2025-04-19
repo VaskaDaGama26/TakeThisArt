@@ -5,8 +5,40 @@
   --black: #000000;
   --white: #ffffff;
   --gray: #727272;
+  --green: #0a493c;
 }
 
 html {
-  @apply bg-(--black) h-full w-full;
+  @apply bg-(--black) h-full w-full scroll-smooth;
+}
+
+.underline-animation {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.underline-animation::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--green);
+  transform: translateX(-50%);
+}
+.underline-animation:hover::after {
+  animation: expand-line 0.3s ease-in-out forwards;
+}
+@keyframes expand-line {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.placeholderForm {
+  @apply outline-none w-full placeholder-(--gray) pb-2 border-b-1 border-(--gray);
 }
