@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <div className="flex flex-col gap-2 pt-32 pb-8 max-w-7xl mx-auto text-center">
-      <p className="fira-sans-condensed-light text-xl text-(--white)">
+      <p className="fira-sans-condensed-light text-base sm:text-xl text-(--white)">
         &copy; 2024 - {actualYear} Vadim Kornev | photographer, Russia
       </p>
       <p className="fira-sans-condensed-light text-base text-(--gray)">
