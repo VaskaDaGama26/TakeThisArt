@@ -1,0 +1,7 @@
+{
+  "Липецк": [
+    { "id": 1, "label": "DOOR28, Липецк", "link": "https://vk.com/door28", "img": "/studios/door28.jpg" },
+    { "id": 2, "label": "КУБ, Липецк", "link": "https://vk.com/cube_artstudio", "img": "/studios/cube.jpg" }
+  ],
+  "Воронеж": [{ "id": 1, "label": "Gallery, Воронеж", "link": "https://vk.com/gallerystudio_vrn", "img": "/studios/gallery.jpg" }]
+}

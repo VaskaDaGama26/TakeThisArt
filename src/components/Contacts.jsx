@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
-import { useInView } from "react-intersection-observer";
+import React from "react";
 import Heading from "./UI/Heading";
-import Button from "./UI/Button";
+import Button from "./UI/CustomButton";
 import contactsIMG from "/images/contactsIMG.jpg";
 
 const Contacts = () => {

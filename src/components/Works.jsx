@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import Marquee from "react-fast-marquee";
-import Button from "./UI/Button.jsx";
+import Button from "./UI/CustomButton.jsx";
 import MediaGrid from "./portfolio/MediaGrid.jsx";
 
 const Works = () => {
