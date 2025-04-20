@@ -71,7 +71,13 @@ const Studios = () => {
 
   return (
     <>
-      <Heading label="Студии для съёмок" />
+      <div className="flex flex-col items-center">
+        <Heading label="Студии для съёмок" />
+        <p className="fira-sans-condensed-light text-center text-base/normal text-(--gray)">
+          Не нашли подходящий вариант или вашего города нет в списке?
+          <br /> Напишите мне — вместе подберем студию специально для вас!
+        </p>
+      </div>
       <div className="flex flex-col gap-8 xl:items-start items-center">
         <div className="flex flex-row items-center gap-8">
           {renderButtons()}
