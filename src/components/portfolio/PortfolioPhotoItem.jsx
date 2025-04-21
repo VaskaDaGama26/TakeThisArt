@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
 
-const PhotoItem = ({ photo }) => {
+const PortfolioPhotoItem = ({ photo }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const { ref, inView } = useInView({
     threshold: 0.01,
@@ -9,10 +9,7 @@ const PhotoItem = ({ photo }) => {
   });
 
   return (
-    <div
-      ref={ref}
-      className="relative w-[280px] h-[350px] lg:w-[400px] lg:h-[506px] sm:w-[300px] sm:h-[380px] overflow-hidden"
-    >
+    <div ref={ref} className="relative w-[300px] h-[380px] xl:w-[400px] xl:h-[506px] overflow-hidden">
       {/* Skeleton loader */}
       {!isLoaded && (
         <div className="absolute inset-0 bg-neutral-900 animate-pulse"></div>
@@ -33,4 +30,4 @@ const PhotoItem = ({ photo }) => {
   );
 };
 
-export default PhotoItem;
+export default PortfolioPhotoItem;

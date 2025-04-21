@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 
-const VideoItem = ({ video }) => {
+const PortfolioVideoItem = ({ video }) => {
   const videoRef = useRef(null);
   const { ref, inView } = useInView({
     threshold: 0.01,
@@ -20,7 +20,10 @@ const VideoItem = ({ video }) => {
   }, [inView]);
 
   return (
-    <div ref={ref} className="relative w-[280px] h-[350px] lg:w-[400px] lg:h-[506px] sm:w-[300px] sm:h-[380px] overflow-hidden">
+    <div
+      ref={ref}
+      className="relative w-[300px] h-[380px] xl:w-[400px] xl:h-[506px] overflow-hidden"
+    >
       <video
         ref={videoRef}
         className="absolute inset-0 w-full h-full object-cover"
@@ -35,4 +38,4 @@ const VideoItem = ({ video }) => {
   );
 };
 
-export default VideoItem;
+export default PortfolioVideoItem;
