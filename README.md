@@ -1,4 +1,4 @@
-# KornevPhotographer
+# TakeThisArt
 
 > React | Tailwind | Vite  
 

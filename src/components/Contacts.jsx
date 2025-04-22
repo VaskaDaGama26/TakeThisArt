@@ -69,7 +69,11 @@ const Contacts = () => {
             <p className="fira-sans-condensed-light text-xl text-(--white)">
               Заполните контактную форму или напишите мне в соцсетях
             </p>
-            <form className="flex flex-col items-start gap-12" action={""}>
+            <form
+              className="flex flex-col items-start gap-12"
+              action="https://formspree.io/f/xblojgwq"
+              method="POST"
+            >
               <input
                 name="name"
                 required
