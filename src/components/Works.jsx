@@ -9,22 +9,22 @@ const Works = () => {
   const photos = [
     {
       id: 1,
-      highQuality: "photos/high1.jpg",
+      highQuality: "/photos/High1.jpg",
       alt: "Photo 1",
     },
     {
       id: 2,
-      highQuality: "photos/high2.jpg",
+      highQuality: "/photos/High2.jpg",
       alt: "Photo 1",
     },
     {
       id: 3,
-      highQuality: "photos/high5.jpg",
+      highQuality: "/photos/High5.jpg",
       alt: "Photo 1",
     },
     {
       id: 4,
-      highQuality: "photos/high6.jpg",
+      highQuality: "/photos/High6.jpg",
       alt: "Photo 1",
     },
   ];
