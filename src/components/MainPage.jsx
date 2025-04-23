@@ -34,10 +34,6 @@ const MainPage = () => {
       <div className="max-w-7xl mx-auto flex flex-col gap-8 items-center">
         <Works />
       </div>
-      {/* Plans */}
-      <div className="max-w-7xl mx-auto py-32 w-full ">
-        <Plans />
-      </div>
       <div className="max-w-7xl mx-auto w-full flex flex-col gap-8 mb-16 px-4">
         <Studios />
       </div>

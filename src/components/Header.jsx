@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [hidden, setHidden] = useState(false);
-  const location = useLocation(); // Use the hook to get current location
+  const location = useLocation();
 
   const height = window.innerHeight;
   const thresholds = [
@@ -16,7 +16,7 @@ const Header = () => {
     thresholds.find((t) => height > t.minHeight)?.multiplier * height || 0;
 
   const NavItems = [
-    { id: 1, label: "Главная", link: "/" },
+    { id: 1, label: "Главная", link: "/TakeThisArt/" },
     { id: 2, label: "Портфолио", link: "/TakeThisArt/portfolio" },
     { id: 3, label: "Тарифы", link: "#plans" },
     { id: 4, label: "Контакты", link: "#contacts" },
@@ -44,7 +44,6 @@ const Header = () => {
     }
   }, [scrollPosition, location.pathname]);
 
-  // Dynamic styles based on the page
   const headerClass =
     location.pathname === "/"
       ? `sticky top-8 duration-300 ${
