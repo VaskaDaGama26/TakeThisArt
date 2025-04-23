@@ -25,7 +25,7 @@ const Contacts = () => {
         {/* HEADING */}
         <div className="flex flex-col items-center">
           <Heading label="Контакты" />
-          <p className="fira-sans-condensed-light text-center text-base/normal text-(--gray)">
+          <p className="fira-sans-condensed-light text-center text-base/normal text-(--gray) px-2">
             Быстрее всего связаться со мной можно в Telegram:
             <br />
             <a
