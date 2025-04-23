@@ -15,24 +15,24 @@ const Works = () => {
     {
       id: 2,
       highQuality: "/TakeThisArt/photos/High2.jpg",
-      alt: "Photo 1",
+      alt: "Photo 2",
     },
     {
       id: 3,
       highQuality: "/TakeThisArt/photos/High5.jpg",
-      alt: "Photo 1",
+      alt: "Photo 3",
     },
     {
       id: 4,
       highQuality: "/TakeThisArt/photos/High6.jpg",
-      alt: "Photo 1",
+      alt: "Photo 4",
     },
   ];
 
   const videos = [
     {
       id: 1,
-      src: "/TakeThisArt/video/1.mp4",
+      src: "/TakeThisArt/video/3.mp4",
       type: "video/mp4",
     },
     {

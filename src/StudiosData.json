@@ -1,7 +1,8 @@
 {
   "Липецк": [
     { "id": 1, "label": "DOOR28, Липецк", "link": "https://vk.com/door28", "img": "/TakeThisArt/studios/door28.jpg" },
-    { "id": 2, "label": "КУБ, Липецк", "link": "https://vk.com/cube_artstudio", "img": "/TakeThisArt/studios/cube.jpg" }
+    { "id": 2, "label": "КУБ, Липецк", "link": "https://vk.com/cube_artstudio", "img": "/TakeThisArt/studios/cube.jpg" },
+    { "id": 3, "label": "Onfilm studio, Липецк", "link": "https://onfilm-studio.clients.site/", "img": "/TakeThisArt/studios/onfilm.jpg" } 
   ],
   "Воронеж": [{ "id": 1, "label": "Gallery, Воронеж", "link": "https://vk.com/gallerystudio_vrn", "img": "/TakeThisArt/studios/gallery.jpg" }]
 }
