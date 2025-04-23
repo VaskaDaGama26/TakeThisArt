@@ -9,22 +9,22 @@ const Works = () => {
   const photos = [
     {
       id: 1,
-      highQuality: "/photos/High1.jpg",
+      highQuality: "/TakeThisArt/photos/High1.jpg",
       alt: "Photo 1",
     },
     {
       id: 2,
-      highQuality: "/photos/High2.jpg",
+      highQuality: "/TakeThisArt/photos/High2.jpg",
       alt: "Photo 1",
     },
     {
       id: 3,
-      highQuality: "/photos/High5.jpg",
+      highQuality: "/TakeThisArt/photos/High5.jpg",
       alt: "Photo 1",
     },
     {
       id: 4,
-      highQuality: "/photos/High6.jpg",
+      highQuality: "/TakeThisArt/photos/High6.jpg",
       alt: "Photo 1",
     },
   ];
@@ -32,12 +32,12 @@ const Works = () => {
   const videos = [
     {
       id: 1,
-      src: "/video/1.mp4",
+      src: "/TakeThisArt/video/1.mp4",
       type: "video/mp4",
     },
     {
       id: 2,
-      src: "/video/2.mp4",
+      src: "/TakeThisArt/video/2.mp4",
       type: "video/mp4",
     },
   ];

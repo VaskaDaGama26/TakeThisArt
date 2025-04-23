@@ -17,7 +17,7 @@ const Header = () => {
 
   const NavItems = [
     { id: 1, label: "Главная", link: "/" },
-    { id: 2, label: "Портфолио", link: "/portfolio" },
+    { id: 2, label: "Портфолио", link: "/TakeThisArt/portfolio" },
     { id: 3, label: "Тарифы", link: "#plans" },
     { id: 4, label: "Контакты", link: "#contacts" },
   ];

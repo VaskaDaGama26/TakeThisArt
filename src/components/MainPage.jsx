@@ -17,7 +17,7 @@ const MainPage = () => {
 
         {/* Background image */}
         <img
-          src="/images/mainIMG.jpg"
+          src="/TakeThisArt/images/mainIMG.jpg"
           alt="Background"
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
             isLoaded ? "opacity-100" : "opacity-0"

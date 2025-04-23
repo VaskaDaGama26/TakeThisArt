@@ -25,7 +25,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<MainPage />} />
-            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/TakeThisArt/portfolio" element={<Portfolio />} />
           </Routes>
           <Contacts />
           <Footer />
